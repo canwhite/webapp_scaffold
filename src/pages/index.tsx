@@ -1,14 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
-import { useState, useEffect } from "react";
-import { ethers } from "ethers";
-import { Button } from "@/components/ui/button";
-import useEvent from "@/hooks/useEvent";
-import ReadERC20 from "@/components/readERC20";
-import TransferERC20 from "@/components/transferERC20";
+// import Link from "next/link";
+// import { useState, useEffect } from "react";
+// import { ethers } from "ethers";
+// import { Button } from "@/components/ui/button";
+// import useEvent from "@/hooks/useEvent";
 
-declare let window: any;
+// declare let window: any;
 
 const Home: NextPage = () => {
   return (

@@ -10,7 +10,7 @@ interface TextProps extends React.HTMLAttributes<HTMLSpanElement> {
   as?: React.ElementType;
 }
 
-export default function Text({
+export function Text({
   children,
   className,
   variant = "default",

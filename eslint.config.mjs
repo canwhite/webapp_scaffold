@@ -11,11 +11,11 @@ export default defineConfig([
     ignores: ["**/node_modules/**", "**/.next/**", "**/dist/**", "**/out/**"]
   },
   js.configs.recommended,
+  ...tseslint.configs.recommended,
   {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
     languageOptions: { globals: globals.browser }
   },
-  ...tseslint.configs.recommended,
   {
     ...pluginReact.configs.flat.recommended,
     settings: {

@@ -3,7 +3,7 @@ import Head from "next/head";
 // import Link from "next/link";
 // import { useState, useEffect } from "react";
 // import { ethers } from "ethers";
-// import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { useCounter } from "@/store/index";
 
 // declare let window: any;
@@ -45,6 +45,10 @@ const Home: NextPage = () => {
             Increment
           </button>
         </div>
+
+        <Button className="bg-red-200" size="sm" variant="outline">
+          test shadcn
+        </Button>
       </div>
     </div>
   );
